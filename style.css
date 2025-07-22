@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+  background: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header button {
+  background: white;
+  color: #6200ea;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  margin-top: 2rem;
+}
+
+/* Tema oscuro */
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark header {
+  background-color: #333;
+}
+
+body.dark header button {
+  background: #eee;
+  color: #333;
+}
+
+body.dark footer {
+  background-color: #222;
+}
